@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         
                         
                         circle.addEventListener('mouseover', function(event) {
-                            tooltip.textContent = `Location: ${location}, Crime Rate: ${crimeRate}, Violent Crime Rate: ${vi}`;
+                            tooltip.textContent = `Location: ${location}, Crime Rate: ${crimeRate} (per 1000 people), Violent Crime Rate: ${vi} (per 1000 people)`;
                             tooltip.style.display = 'block';
 
                             tooltip.style.left = `calc(100% + 10px)`; 
